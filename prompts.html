@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es" data-tema="claro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banco de Prompts · IA en la Investigación Educativa</title>
+  <meta name="description" content="Prompts listos para copiar, filtrables por categoría.">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="app">
+    <aside class="sidebar" aria-label="Menú lateral"></aside>
+    <div class="main">
+      <header class="topbar"></header>
+      <main class="contenido">
+<nav class="miga"><a href="index.html">Inicio</a> › Banco de Prompts</nav>
+        <header class="encabezado">
+          <span class="eyebrow">Recurso</span>
+          <h1>Banco de Prompts</h1>
+          <p>Prompts listos para copiar y adaptar a cada etapa de la investigación. Filtrá por categoría o buscá por palabra clave.</p>
+        </header>
+        <section class="seccion">
+          <div class="buscador" style="max-width:none;margin-bottom:.4rem">
+            <span class="buscador__ico">🔍</span>
+            <input type="search" id="buscarPrompt" placeholder="Buscar dentro de los prompts…" aria-label="Buscar prompts">
+          </div>
+          <div class="chips" id="filtrosPrompts"></div>
+          <div class="grilla grilla--2" id="listaPrompts"></div>
+        </section>
+        <div class="aviso"><strong>Cómo usarlos:</strong> reemplazá el texto entre [CORCHETES] por tu información concreta. Recordá verificar toda referencia o dato que la IA devuelva.</div>
+
+      </main>
+      <footer class="pie">
+        <p><strong>Ciclo de Seminarios «Investigar en el Nivel Superior, de la idea al proyecto»</strong></p>
+        <p>IES N.° 10 — Libertador General San Martín (Ledesma), Jujuy · Responsable Académica: Ing. Prof. María Cristina Cosme</p>
+        <p style="margin-top:.6rem;opacity:.8">© 2026 · Material educativo con fines de formación docente</p>
+      </footer>
+    </div>
+  </div>
+  <script src="js/prompts-data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
